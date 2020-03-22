@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat&display=swap');
+
+div.what-is-it {
+	padding-left: 60px;
+	padding-top: 60px;
+
+}
+
+
+h2 {
+	color: #000;
+	margin:0;
+	font-size: 36px;
+	font-family: 'Lora', serif;
+}
+p {
+	font-size: 14px;
+	color: #000;
+	line-height: 28px;
+}
+
+
+img {
+	vertical-align: top;
+	display:inline-block;
+	width:  30%;
+	height: auto;
+}
+
+
+div.content {
+	margin-left: 40px;
+	padding-left: 10px;
+	border-left: 1px solid #fb6970;
+	display: inline-block;
+	width: 55%;
+}
+
+
+div.requirements {
+	margin-top: 60px;
+	margin-left: 50px;
+}
+ul li {
+	color: #000;
+}
+
+div.actions {
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	color: #fb6970;
+	border: 1px solid #fb6970;
+	padding: 15px 30px;
+	border-radius: 5px;
+}
+
+a:hover {
+	color: #fff;
+	background: #fb6970;
+}

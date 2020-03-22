@@ -1,0 +1,15 @@
+ul li {
+
+	list-style: none;
+}
+
+mat-toolbar {
+	background: #fb6970;
+}
+
+img.logo {
+	display: inline-block;
+	padding-top: 15px;
+	width:  60px;
+	height: auto;
+}

@@ -1,0 +1,68 @@
+<main>
+	<div class = "search">
+		<h2>Find  Your Ideal Startups</h2>
+		<p> As a
+			<input type="text" id="fname" name="fname" placeholder = "Job Title">
+			<br>
+			I would like to work at <input type="text" id="fname" name="fname" placeholder = "Industry">
+			startups.
+		</p>
+		<button mat-button class = "findChallenge" (click)  = "toggleDisplay()" >Find Challenges </button>
+	</div>
+	
+	<div class = "content">
+		<section class = "cards" >
+			<div class = "card" [hidden] = "isDisplay">
+				<div class = "card-image">
+					<img src = "../../assets/images/city_design.jpg" />
+
+				</div>
+				<div class = "card-text">
+					<h2>City Traffic Challenge</h2>
+					<h3>Sponsor: Shopify</h3>
+					<p>Join  this challenge to save the Toronto  city traffic problem.  THe goal is to reduce the average travel time per adult in Toronto. </p>
+				</div>
+
+				<div class = "card-actions">
+					<a href = "/#" class = "challenge">Take The Challenge</a>
+					<a href = "/details" class = "details">Details</a>
+					
+				</div>
+			</div>
+
+			<div class = "card"  [hidden] = "isDisplay">
+				<div class = "card-image">
+					<img src = "../../assets/images/events.jpg" />
+
+				</div>
+				<div class = "card-text">
+					<h2>Stop The Fire Challenge</h2>
+					<h3>Sponsor: Reddit</h3>
+					<p> This is challenge is to reduce the number of wildfire in Canada. We are providing with you the data you need to solve this problem. </p>
+				</div>
+
+				<div class = "card-actions">
+					<a href = "/#" class = "challenge">Take The Challenge</a>
+					<a href = "/details" class = "details">Details</a>
+				</div>
+			</div>
+
+			<div class = "card" [hidden] = "isDisplay">
+				<div class = "card-image">
+					<img src = "../../assets/images/buses.jpg" />
+
+				</div>
+				<div class = "card-text">
+					<h2>Catch The Bust Challenge</h2>
+					<h3>Sponsor: Collison</h3>
+					<p> Do you know how often we arrive to work late? We need your help to solve this so that we never try to catch a bus.  </p>
+				</div>
+
+				<div class = "card-actions">
+					<a href = "/#" class = "challenge">Take The Challenge</a>
+					<a href = "/details" class = "details">Details</a>
+				</div>
+			</div>
+		</section>
+	</div>
+</main>
