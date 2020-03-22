@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.home {
+    height: 100%;
+}
+
+
+#results {
+    display: none;
+}
+
+body>nav {
+    color: #fff;
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop(0%, rgba(0, 0, 0, 0.00)), color-stop(100%, rgba(0, 0, 0, 0.00)));
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+li>a {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff !important;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#tag {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.bg {
+    background-image: url("../images/home.png");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+input.form-control {
+    height: 5em;
+    border-radius: 40px;
+    background: transparent;
+    border-color: #fff;
+    margin-bottom: 20px;
+
+
+}
+
+button.btn {
+    background: transparent;
+    padding: 10px 75px;
+    border-color: #07a5a5;
+    border-radius: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #07a5a5;
+}
+
+button.btn:hover {
+    color: #fff;
+    background: #07a5a5;
+}
+
+.card {
+    margin: .25rem;
+    min-width: 500px;
+}
+
+.card-title {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-text {
+    margin: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-img {
+    filter: brightness(30%);
+    height: 100%;
+}
+
+.top {
+    margin: 30px 0px 0px 0px;
+}
+
+.card button {
+    background: transparent;
+    padding: 10px 20px;
+    border-color: #00ffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #07a5a5;
+}
+
+
+p.wait {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .space {
+        height: 240px;
+    }
+
+    .card-title {
+        font-size: 1.25em;
+    }
+
+    .card-text {
+        font-size: 0.75em;
+
+    }
+}
